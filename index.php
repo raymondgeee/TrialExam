@@ -85,7 +85,6 @@ $trl = new TrialClass;
                                     </td>";
                                 echo "</tr>";
 
-                                $totalPrice += $key['price'];
                             }
                         }
                         ?>
@@ -95,7 +94,7 @@ $trl = new TrialClass;
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td style='text-align:right;'><b>Total Price : <?php echo number_format($totalPrice,2); ?></b></td>
+                            <td></td>
                             <td></td>
                         </tr>
                     <tfoot>
@@ -174,7 +173,7 @@ $trl = new TrialClass;
 $(document).ready(function(){
     $("#addProduct").click(function(){
 		$("#modal-izi-add").iziModal({
-            title                   : '<i class="fa fa-flash"></i><font style="text-transform: uppercase;"> Add Product</font>',
+            title                   : '<i class="fa fa-plus"></i><font style="text-transform: uppercase;"> Add Product</font>',
             headerColor             : '#1F4788',
             subtitle                : '<b style="text-transform: uppercase;"><?php echo (date('F d, Y'));?></b>',
             width                   : 450,
@@ -219,7 +218,7 @@ $(document).ready(function(){
         if(stock > 0)
         {
             $("#modal-izi-sell").iziModal({
-                title                   : '<i class="fa fa-flash"></i><font style="text-transform: uppercase;"> Sell Product</font>',
+                title                   : '<i class="fa fa-shopping-cart"></i><font style="text-transform: uppercase;"> Sell Product</font>',
                 headerColor             : '#1F4788',
                 subtitle                : '<b style="text-transform: uppercase;"><?php echo (date('F d, Y'));?></b>',
                 width                   : 450,
@@ -273,7 +272,7 @@ $(document).ready(function(){
     $(".edit").click(function(){
         var productId = $(this).prop("id");
 		$("#modal-izi-update").iziModal({
-            title                   : '<i class="fa fa-flash"></i><font style="text-transform: uppercase;"> Edit Product</font>',
+            title                   : '<i class="fa fa-pencil-square"></i><font style="text-transform: uppercase;"> Edit Product</font>',
             headerColor             : '#1F4788',
             subtitle                : '<b style="text-transform: uppercase;"><?php echo (date('F d, Y'));?></b>',
             width                   : 450,

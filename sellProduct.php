@@ -55,7 +55,7 @@ echo "<div class='row w3-padding-top'>";
 echo "</div>";
 echo "<div class='row w3-padding-top'>";
 	echo "<div class='col-md-12 w3-center'>";
-        echo "<button form='formSell' name='confirmBtn'>CONFIRM</button>";
+        echo "<button form='formSell' class='w3-btn w3-indigo w3-round w3-tiny' name='confirmBtn'><i class='fa fa-check'></i>&emsp;<b>CONFIRM</b></button>";
 	echo "</div>";
 echo "</div>";
 ?>

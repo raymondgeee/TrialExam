@@ -52,7 +52,7 @@ echo "<div class='row w3-padding-top'>";
 echo "</div>";
 echo "<div class='row w3-padding-top'>";
 	echo "<div class='col-md-12 w3-center'>";
-        echo "<button form='formUpdate' name='updateBtn'>UPDATE</button>";
+        echo "<button form='formUpdate' class='w3-btn w3-indigo w3-round w3-tiny' name='updateBtn'><i class='fa fa-check'></i>&emsp;<b>UPDATE</b></button>";
 	echo "</div>";
 echo "</div>";
 ?>
