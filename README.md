@@ -3,11 +3,17 @@
 Directory Structure
 -------------------
 index.php           - Main Form.
+
 class.php           - Includes Class and Method, Database Connections and queries.
+
 addProduct.php      - Add Product Form.
+
 editProduct.php     - Edit Product.
+
 sellProduct.php     - Sell Product Form.
+
 trialproject.sql    - Project Database.
+
 
 
 Import Database
