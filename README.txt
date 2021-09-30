@@ -18,7 +18,7 @@ Clone my project on your local C:\\wamp\www\
   
  - git clone https://github.com/raymondgeee/TrialExam.git
  
-Install WAMP erver
+Install WAMP server
 
 Open PHPMyadmin : http://127.0.0.1/phpmyadmin/
 Login: root without password
