@@ -7,7 +7,7 @@ if(isset($_POST['confirmBtn']))
 {
     $stock = isset($_POST['stock']) ? $_POST['stock'] : "";
     $price = isset($_POST['price']) ? $_POST['price'] : "";
-    $originalStock = isset($_POST['price']) ? $_POST['originalStock'] : "";
+    $originalStock = isset($_POST['originalStock']) ? $_POST['originalStock'] : "";
 
     $trl->setTableName("sales_product")
         ->setFieldsValues([
