@@ -43,4 +43,6 @@ echo "<div class='row w3-padding-top'>";
         echo "<button form='formInsert' class='w3-btn w3-indigo w3-round w3-tiny' name='saveBtn'><i class='fa fa-check'></i>&emsp;<b>SAVE</b></button>";
 	echo "</div>";
 echo "</div>";
+
+
 ?>
