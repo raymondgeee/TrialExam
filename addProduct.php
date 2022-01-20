@@ -18,6 +18,7 @@ if(isset($_POST['saveBtn']))
     header("location:index.php");
     exit();
 }
+
 echo "<form id='formInsert' action='".$_SERVER['PHP_SELF']."' action='' method='POST'></form>";
 echo "<div class='row'>";
 	echo "<div class='col-md-12'>";
